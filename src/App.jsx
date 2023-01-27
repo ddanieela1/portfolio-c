@@ -8,7 +8,7 @@ function App() {
     <main>
 
       <NavBar />
-    
+      <h1>Hello world</h1>
     </main>
   )
 }
