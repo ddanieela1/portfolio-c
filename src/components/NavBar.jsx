@@ -18,6 +18,12 @@ export const NavBar = () => {
     return () => window.removeEventListener("scrolled", onScroll);
     }, [])
 
+
+    const onUpdateActiveLink = (getValue) =>{
+      setActiveLink(value);
+    }
+
+
     return (
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
