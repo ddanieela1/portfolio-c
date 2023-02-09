@@ -1,13 +1,17 @@
-import { NavBar } from './components/NavBar'
+import { NavBar } from './components/NavBar';
+import {Banner} from './components/Banner';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React from 'react';
+// import ReactDOM from 'react-dom';
 
 function App() {
   return (
     <main>
       <NavBar />
-      <h1>Hello world</h1>
+      <Banner />
+ 
+      
     </main>
   )
 }
