@@ -54,7 +54,10 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index)=>{
                                                 return(
-                                                    <ProjectDetail />
+                                                    <ProjectDetail 
+                                                    key={index}
+                                                    {...project}
+                                                    />
                                                 )
                                             })
                                         }
@@ -75,6 +78,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
+            <img className="background-image-right" src={'/intro.png'}></img>
         </section>
     )
 }

@@ -3,7 +3,7 @@ import { Col} from "react-bootstrap";
 export const ProjectDetail = ({title,description,imgURL}) => {
 
     return(
-     <Col>
+     <Col sm={6} md={4}>
         <div className="proj-imgbx">
             <img src={imgURL} />
             <div className="proj-txtx">
