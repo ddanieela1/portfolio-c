@@ -7,7 +7,7 @@ export const Projects = () => {
         {
             title: "Robot Invasion",
             description: "Gaming",
-            imgURL:"",
+            imgURL:"/kiwi-default-pic.jpeg",
         },
         {
             title: "My Private Journal",
@@ -65,7 +65,7 @@ export const Projects = () => {
 
                                 </Tab.Pane >
 
-                                <Tab.Pane eventKey="section">
+                                <Tab.Pane eventKey="second">
                                     <p>Description here</p>
                                  </Tab.Pane>
 
