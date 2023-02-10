@@ -47,6 +47,7 @@ export const Projects = () => {
                             </Nav>
 
                             <Tab.Content>
+                                
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
@@ -59,12 +60,15 @@ export const Projects = () => {
                                     </Row>
 
                                 </Tab.Pane >
+
                                 <Tab.Pane eventKey="section">
                                     <p>Description here</p>
                                  </Tab.Pane>
+
                                  <Tab.Pane eventKey="third">
                                     <p>Description here</p>
                                  </Tab.Pane>
+
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
