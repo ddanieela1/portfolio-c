@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav, TabPane} from "react-bootstrap";
 
 
 export const Projects = () => {
@@ -13,6 +13,12 @@ export const Projects = () => {
             description: "Journaling app",
             imgURL:"",
         },
+        {
+            title: "Voluntiers",
+            description: "Journaling app",
+            imgURL:"",
+        },
+
     ];
     return(
         <section className="project" id="project">
@@ -30,12 +36,36 @@ export const Projects = () => {
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                 </Nav.Item>
 
+                                <Nav.Item>
+                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                </Nav.Item>
+
+
                             </Nav>
-{/* 
-                            <Tab.Content id="slideInUp" className="" */}
+
+                            <Tab.Content>
+                                <Tab.Pane eventKey="first">
+                                    <Row>
+                                        {
+                                            projects.map((project, index)=>{
+                                                return(
+                                                    <h1>   Project here </h1>
+                                                )
+                                            })
+                                        }
+                                    </Row>
+
+                                </Tab.Pane >
+                                <Tab.Pane eventKey="section">
+                                    <p>Description here</p>
+                                 </Tab.Pane>
+                                 <Tab.Pane eventKey="third">
+                                    <p>Description here</p>
+                                 </Tab.Pane>
+                            </Tab.Content>
                         </Tab.Container>
                     </Col>
                 </Row>
