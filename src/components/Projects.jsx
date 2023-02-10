@@ -1,4 +1,5 @@
 import { Container, Row, Col, Tab, Nav, TabPane} from "react-bootstrap";
+import { ProjectDetail } from "./ProjectDetail";
 
 
 export const Projects = () => {
@@ -47,13 +48,13 @@ export const Projects = () => {
                             </Nav>
 
                             <Tab.Content>
-                                
+
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
                                             projects.map((project, index)=>{
                                                 return(
-                                                    <h1>   Project here </h1>
+                                                    <ProjectDetail />
                                                 )
                                             })
                                         }
