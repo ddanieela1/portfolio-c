@@ -36,7 +36,7 @@ export const Banner = () => {
         }
 
         if(!isDeletedWord && updatedText === fullText){
-            setIsDeletedWord = (true);
+            setIsDeletedWord(true);
             setIndex(prevIndex => prevIndex - 1);
             setDelta(period);
         }else if(isDeletedWord && updatedText === ''){
@@ -58,7 +58,7 @@ export const Banner = () => {
                     {/* <TrackVisibility> */}
                 <span className="tagline"> Welcome to my portfolio </span>
 
-                <h1>{`Hi I'm a`}<span className="wrap">{textDisplayed}</span> </h1>
+                <h1>{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
                 <p>Dummy Text</p>
                 <button onClick={() =>console.log("connect")}>Lets Connect <ArrowRightCircle size={25} /></button>
                     {/* </TrackVisibility> */}
