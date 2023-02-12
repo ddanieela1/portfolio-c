@@ -22,9 +22,25 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = () => {
-
-    }
+    const handleSubmit = async(e) => {
+        e.preventDefault();
+        setButtonText("Sending message...");
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(formDetails)
+        });
+        setButtonText("Send");
+        let result = await response.json();
+        setFormDetails(blankContactForm);
+        if (result.code === 200) {
+            setStatus({success: true, message: "Message sent"});
+        }else{
+            setStatus({success: false, message: "Message not sent"});
+        }
+    };
 
     return (
         <section className="contact" id="connect">
