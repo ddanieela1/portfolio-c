@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { formatPostcssSourceMap } from "vite";
+import { Container,Row,Col } from "react-bootstrap";
 
 export const Contact = () => {
     const blankContactForm = {
@@ -77,7 +77,7 @@ export const Contact = () => {
                                     </Col>
 
                                     {/* button state updated,pass variable */}
-                                    <button type="submit"><span>{buttonText}</span></button>
+                                    <button type="submit"><span>{buttonsText}</span></button>
 
                                     {
                                         status.message &&
