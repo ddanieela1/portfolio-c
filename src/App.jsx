@@ -29,9 +29,7 @@ function App() {
 
       <NavBar />
       <Banner />
-      <div ref={skills} className="skills">
-      <Skills ref={skills} />
-      </div>
+      <Skills  />
       <Projects/>
       <Contact />
       <Footer />
