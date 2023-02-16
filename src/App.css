@@ -17,8 +17,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-image: linear-gradient(to bottom right, rgb(99, 123, 184), rgb(181, 129, 190));
+  /* color: #fff !important; */
   font-family:'Abril Fatface', cursive !important;
 }
 
@@ -63,6 +63,7 @@ nav.navbar{
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
+  background-color: rgb(203, 159, 174);
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -81,16 +82,19 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  background-color: rgb(203, 159, 174);
 
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active{
   opacity: 1;
+
 }
 
 span.navbar-text {
   display: flex;
   align-items: center;
+  
 
 }
 .social-icon {
@@ -168,6 +172,7 @@ nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus{
         outline: none;
     box-shadow: none;
+    
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
@@ -192,9 +197,11 @@ nav.navbar .navbar-toggler-icon:before {
           content: '';
           z-index: 2;
           transition: all 300ms linear;
+          
 }
 nav.navbar .navbar-toggler-icon:after{
   top: 8px;
+  
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
         transform: rotate(45deg);
@@ -209,12 +216,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before{
 nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
         border-color: transparent;
 }
+#home-nav {
+  width: 80px;
+  margin: 10px;
+
+}
+#skills-nav {
+  width: 100px;
+  margin-left: -20px;
+  margin-bottom: 10px;
+ 
+}
+#projects-nav {
+  width: 85px;
+  margin: 10px;
+}
+.navbar{
+  color: rgb(130, 183, 165);
+}
 
 /* banner styling */
 .banner{
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./public/intro.png'); */
+  /* background-image: url('./public/grad-grid.jpeg'); */
+  /* background-color: rgb(156, 204, 156); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -278,14 +304,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
 border-right: 0.08em solid #666;
+
 }
 
+.window {
+  z-index: 1;
+  position:absolute;
+  width: 800px;
+  margin-top: -50px;
+  
+
+}
+.cursor {
+  z-index: 2;
+  margin-top: 340px;
+  position:absolute;
+  width: 300px;
+}
+.webpage {
+  z-index: 1;
+  position:absolute;
+  width: 800px;
+  margin: 30px;
+  margin-left: 400px;
+
+}
 /* skill styling */
 
 .skill{
   padding: 0 0 50px 0;
   position: relative;
   width: 100vw;
+  height: 400px;
+  margin-top: 700px;
 }
 .skill-bx {
   background: #151515;
@@ -293,6 +344,7 @@ border-right: 0.08em solid #666;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+
 }
 .skill h2 {
         font-size: 45px;

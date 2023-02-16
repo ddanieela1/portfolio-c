@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-import { useRef } from "react";
 
 
 export const NavBar = () => {
@@ -23,9 +22,9 @@ export const NavBar = () => {
     return (
       <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
-      <Container>
+      <Container className="navbar">
         <Navbar.Brand href="#home">
-          <img src = {'/headerImg.svg'} alt = 'logo'/>
+          <img src = {'/grid.jpeg'} alt = 'logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
         <span className="navbar-toggler-icon"></span>
@@ -34,13 +33,13 @@ export const NavBar = () => {
           <Nav className="me-auto">
 
            
-            <Nav.Link href="#home" className= {activateLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
+            <Nav.Link href="#home" id='nav-home' className= {activateLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}><img id='home-nav' className= {activateLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}src={'/shelter.png'}  alt="Header Img" />Home</Nav.Link>
 
         
-            <Nav.Link href="#projects" className= {activateLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()}>Projects</Nav.Link>
+            <Nav.Link href="#projects" className= {activateLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()}><img id='projects-nav' className= {activateLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()} src={'/coding.png'} alt="Header Img" />Projects</Nav.Link>
 
 
-            <Nav.Link href="#skills" className= {activateLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()}>Skills</Nav.Link>
+            <Nav.Link href="#skills" className= {activateLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()}><img id='skills-nav' className= {activateLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=> scroll()} src={'/competence.png'} alt="Header Img" />Skills</Nav.Link>
 
 
           </Nav>

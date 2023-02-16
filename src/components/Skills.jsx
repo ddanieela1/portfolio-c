@@ -1,17 +1,10 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import { useRef } from "react";
+
 
 export const Skills = () =>{
-    const skills = useRef(null)
 
-    const scrollToSection = (elementRef) => {
-        window.scrollTo({
-          top: elementRef.current.offsetTop,
-          behavior: 'smooth',
-        });
-      };
 
     const responsive = {
         superLargeDesktop: {
@@ -36,7 +29,7 @@ export const Skills = () =>{
 
     return(
         <section className="skill" id="skill">
-            <div ref={skills} className="container">
+            <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">

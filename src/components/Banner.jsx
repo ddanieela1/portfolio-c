@@ -56,16 +56,19 @@ export const Banner = () => {
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     {/* <TrackVisibility> */}
-                <span className="tagline"> Welcome to my portfolio </span>
+                {/* <span className="tagline"> Welcome to my portfolio </span> */}
 
                 <h1>{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
-                <p>Dummy Text</p>
+                <img src={'/webpage.jpeg'} className="webpage" alt="Window Img" />
+
                 <button onClick={() =>console.log("connect")}>Lets Connect <ArrowRightCircle size={25} /></button>
                     {/* </TrackVisibility> */}
 
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                    <img src={'/cursor.png'} alt="Header Img" />
+                    <img src={'/cursor.png'} className="cursor" alt="Header Img" />
+                    <img src={'/window1.png'} className="window" alt="Window Img" />
+
 
                 </Col>
             </Row>
