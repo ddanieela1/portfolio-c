@@ -214,7 +214,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
 .banner{
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: '/public/intro.png';
+  /* background-image: url('./public/intro.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ border-right: 0.08em solid #666;
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 20%;
+  top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
@@ -435,12 +435,7 @@ transition: 0.3s ease-in-out;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
@@ -454,4 +449,38 @@ transition: 0.3s ease-in-out;
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+
+
+.link {
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
+
+.top-btn-position {
+  position : fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
 }

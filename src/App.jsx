@@ -8,19 +8,39 @@ import {Footer} from './components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { useRef } from "react";
 // import ReactDOM from 'react-dom';
 
+import { ScrollToTop } from './components/ScrollToTop';
+
 function App() {
+  const skills =useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <main>
+    
+      <div className="App">
+
       <NavBar />
       <Banner />
-      <Skills />
-      <Projects />
+      <div ref={skills} className="skills">
+      <Skills ref={skills} />
+      </div>
+      <Projects/>
       <Contact />
       <Footer />
+      <ScrollToTop />
+
+    </div>
+   
       
-    </main>
+ 
   )
 }
 
