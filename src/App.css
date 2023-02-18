@@ -337,6 +337,7 @@ border-right: 0.08em solid #666;
   width: 100vw;
   height: 400px;
   margin-top: 700px;
+  color:white;
 }
 .skill-bx {
   background: #151515;
@@ -379,28 +380,33 @@ border-right: 0.08em solid #666;
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgba(106, 89, 143, 0.397);
+  color: white;
 }
 .project h2 {
         font-size: 45px;
         font-weight: 700;
   text-align: center;
+
 }
 .project p {
   color: #B8B8B8;
+  /* border-radius: 50px; */
   font-size: 18 px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 76%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 82%;
   margin: 0 auto;
-  border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  /* background-color: rgb(255 255 255 / 10%); */
   overflow: hidden;
+          border-radius: 10px;
+  
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
@@ -441,13 +447,9 @@ transition: 0.3s ease-in-out;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
-.nav-link#projects-tabs-tab-second{
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.nav-link#projects-tabs-tab-third{
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+
+#pills-tab {
+  border-radius: 90px;
 }
 .proj-imgbx {
   position: relative;
@@ -493,6 +495,11 @@ transition: 0.3s ease-in-out;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8;
+}
+#projects-section {
+  position: relative;
+  width: 70px;
+  margin: 40px;
 }
 .background-image-right {
   top: 20%;

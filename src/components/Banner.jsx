@@ -1,8 +1,8 @@
 import {useState,useEffect} from 'react'
 import {Col,Container,Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
-// import 'animate.css'
-// import TrackVisibility from 'react-on-screen'
+import { Link } from "react-router-dom";
+
 
 
 export const Banner = () => {
@@ -50,26 +50,28 @@ export const Banner = () => {
 
     }
 
+
     return (
         <section className ="banner" id="home">
         <Container>
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
-                    {/* <TrackVisibility> */}
+                   
                 {/* <span className="tagline"> Welcome to my portfolio </span> */}
 
                 <h1>{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
                 <img src={'/webpage.jpeg'} className="webpage" alt="Window Img" />
 
-                <button onClick={() =>console.log("connect")}>Lets Connect <ArrowRightCircle size={25} /></button>
-                    {/* </TrackVisibility> */}
 
+                {/* <Link to='https://react.semantic-ui.com/'> */}
+                {/* <a href='https://react.semantic-ui.com/' type='button' >Lets Connect <ArrowRightCircle size={25} /></button> */}
+                {/* </Link>     */}
+
+                <a class='ban-button' href="https://google.com" type="button">Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                    <img src={'/cursor.png'} className="cursor" alt="Header Img" />
+                    <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />
                     <img src={'/window1.png'} className="window" alt="Window Img" />
-
-
                 </Col>
             </Row>
         </Container>

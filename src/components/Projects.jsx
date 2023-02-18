@@ -7,17 +7,31 @@ export const Projects = () => {
         {
             title: "Robot Invasion",
             description: "Gaming",
-            imgURL:"/kiwi-default-pic.jpeg",
+            imgURL:"/proj1.png",
+            repository: "https://github.com/ddanieela1/Robot-Invasion-Game",
+            site:'',
         },
         {
             title: "My Private Journal",
             description: "Journaling app",
-            imgURL:"",
+            imgURL:"/proj2.png",
+            repository: "https://github.com/ddanieela1/kiweee",
+            site: "https://my-priv-journal.herokuapp.com/",
         },
         {
             title: "Voluntiers",
-            description: "Journaling app",
-            imgURL:"",
+            description: "Dashboard for Voluntiers and Organizations",
+            imgURL:"/proj3.png",
+            repository: "https://github.com/ddanieela1/voluntiers",
+            site: "https://voluntiers.herokuapp.com/",
+
+        },
+        {
+            title: "Kiwee",
+            description: "Photo Album App",
+            imgURL:"/proj4.png",
+            repository: "https://github.com/ddanieela1/kiweee",
+            site: 'https://kiweee.herokuapp.com/',
         },
 
     ];
@@ -27,25 +41,16 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <p>Description</p>
+                        <img id="projects-section" src={'/coding.png'}></img>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-
+{/* 
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
 
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                 </Nav.Item>
 
-                                <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                                </Nav.Item>
-
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                                </Nav.Item>
-
-
-                            </Nav>
+                            </Nav> */}
 
                             <Tab.Content>
 
@@ -65,13 +70,6 @@ export const Projects = () => {
 
                                 </Tab.Pane >
 
-                                <Tab.Pane eventKey="second">
-                                    <p>Description here</p>
-                                 </Tab.Pane>
-
-                                 <Tab.Pane eventKey="third">
-                                    <p>Description here</p>
-                                 </Tab.Pane>
 
                             </Tab.Content>
                         </Tab.Container>
