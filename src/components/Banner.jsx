@@ -13,7 +13,7 @@ export const Banner = () => {
     const [delta,setDelta] = useState(300 - Math.random() * 100);
     const [index,setIndex] = useState(1);
     const period = 2000;
-    const rotation = ['Full Stack Engineer', 'React', 'Django' ]
+    const rotation = ['Full Stack Engineer', 'Back-end Engineer','React Developer', 'Django Developer' ]
     
 
     useEffect(()=>{
@@ -59,7 +59,7 @@ export const Banner = () => {
                    
                 {/* <span className="tagline"> Welcome to my portfolio </span> */}
 
-                <h1>{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
+                <h1 className="intro">{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
                 <img src={'/webpage.jpeg'} className="webpage" alt="Window Img" />
 
 
@@ -67,7 +67,7 @@ export const Banner = () => {
                 {/* <a href='https://react.semantic-ui.com/' type='button' >Lets Connect <ArrowRightCircle size={25} /></button> */}
                 {/* </Link>     */}
 
-                <a class='ban-button' href="https://google.com" type="button">Lets Connect <ArrowRightCircle size={25} /></a>
+                <a class='ban-button' href="https://google.com" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />

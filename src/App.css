@@ -224,15 +224,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
 #skills-nav {
   width: 100px;
   margin-left: -20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
  
 }
 #projects-nav {
   width: 85px;
   margin: 10px;
+  color:white;
 }
 .navbar{
   color: rgb(130, 183, 165);
+}
+#nav-bar {
+  color:white;
 }
 
 /* banner styling */
@@ -260,7 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   display: block;
 }
 .banner p {
@@ -306,6 +310,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
 border-right: 0.08em solid #666;
 
 }
+.connect-btn {
+  margin: 1px 0 0;
+  color:rgb(255, 255, 255);
+  font-size: 50px;
+  border: 1px solid;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 2px 6px 2px 6px;
+  background:rgb(0, 0, 0);
+  
+}
 
 .window {
   z-index: 1;
@@ -350,6 +365,7 @@ border-right: 0.08em solid #666;
 .skill h2 {
         font-size: 45px;
         font-weight: 700;
+        margin: 25px;
 }
 .skill p {
     color:rgba(170, 54, 124, 0.5);
@@ -387,17 +403,22 @@ border-right: 0.08em solid #666;
         font-size: 45px;
         font-weight: 700;
   text-align: center;
+  margin: 30px;
 
 }
 .project p {
   color: #B8B8B8;
   /* border-radius: 50px; */
-  font-size: 18 px;
+  font-size: 20 px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
   width: 76%;
+}
+.project a {
+  color: white;
+  font-size: 22x;
 }
 .project .nav.nav-pills {
   width: 82%;

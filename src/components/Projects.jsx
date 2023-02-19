@@ -9,7 +9,7 @@ export const Projects = () => {
             description: "Gaming",
             imgURL:"/proj1.png",
             repository: "https://github.com/ddanieela1/Robot-Invasion-Game",
-            site:'',
+         
         },
         {
             title: "My Private Journal",
@@ -41,7 +41,7 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <img id="projects-section" src={'/coding.png'}></img>
+                        {/* <img id="projects-section" src={'/coding.png'}></img> */}
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
 {/* 
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -54,7 +54,7 @@ export const Projects = () => {
 
                             <Tab.Content>
 
-                                <Tab.Pane eventKey="first">
+                                <Tab.Pane id="proj-pane" eventKey="first">
                                     <Row>
                                         {
                                             projects.map((project, index)=>{

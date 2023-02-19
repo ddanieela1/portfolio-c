@@ -13,7 +13,7 @@ export const NavBar = () => {
 
 
   const scroll = () => {
-    const section = document.querySelector( '#skill', '#project' );
+    const section = document.querySelector( '#skill', '#proj-pane' );
     section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
   };
 
@@ -21,7 +21,7 @@ export const NavBar = () => {
 
     return (
       <Router>
-      <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+      <Navbar expand="lg" id="nav-bar" className={scrolled ? "scrolled": ""}>
       <Container className="navbar">
         <Navbar.Brand href="#home">
           <img src = {'/grid.jpeg'} alt = 'logo'/>

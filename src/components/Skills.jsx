@@ -42,61 +42,60 @@ export const Skills = () =>{
 
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"react.svg"} alt="item-image" />
                                 <h5>React</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"nodedotjs.svg"} alt="item-image" />
                                 <h5>Node</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"express.svg"} alt="item-image" />
                                 <h5>Express</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"javascript.svg"} alt="item-image" />
                                 <h5>Javascript</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"python.svg"} alt="item-image" />
                                 <h5>Python</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"django.svg"} alt="item-image" />
                                 <h5>Django</h5>
                             </div>
                             
-                            <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
-                                <h5>Python</h5>
-                            </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"html5.svg"} alt="item-image" />
                                 <h5>HTML</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"css3.svg"} alt="item-image" />
                                 <h5>CSS</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
+                                <img src={"postgresql.svg"} alt="item-image" />
                                 <h5>PSQL</h5>
                             </div>
 
                             <div className="item">
-                                {/* <img src={img} alt="item-image" /> */}
-                                <h5>MongoDB</h5>
+                                <img src={"sqlite.svg"} alt="item-image" />
+                                <h5>SQLite</h5>
                             </div>
 
-
+                            <div className="item">
+                                <img src={"mongodb.svg"} alt="item-image" />
+                                <h5>MongoDB</h5>
+                            </div>
 
                         </Carousel>
 
