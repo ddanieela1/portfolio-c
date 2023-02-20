@@ -8,7 +8,7 @@ export const Footer = () => {
           <Row className="align-items-center">
            
             <Col size={12} sm={6}>
-              <img src={'/vite.svg'} alt="Logo" />
+              <img src={'/logo.png'} alt="Logo" />
             </Col>
             <Col size={12} sm={6} className="text-center text-sm-end">
               <div className="social-icon">

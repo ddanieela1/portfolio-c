@@ -58,10 +58,14 @@ export const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                    
                 {/* <span className="tagline"> Welcome to my portfolio </span> */}
+                <Container className='intro-banner'>
 
                 <h1 className="intro">{`Hi I'm a `}<span className="wrap">{textDisplayed}</span> </h1>
+
+
                 <img src={'/webpage.jpeg'} className="webpage" alt="Window Img" />
 
+                </Container>
 
                 {/* <Link to='https://react.semantic-ui.com/'> */}
                 {/* <a href='https://react.semantic-ui.com/' type='button' >Lets Connect <ArrowRightCircle size={25} /></button> */}
@@ -69,7 +73,7 @@ export const Banner = () => {
 
                 <a class='ban-button' href="https://google.com" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
-                <Col xs={12} md={6} xl={5}>
+                <Col className="decoration" xs={12} md={6} xl={5}>
                     <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />
                     <img src={'/window1.png'} className="window" alt="Window Img" />
                 </Col>

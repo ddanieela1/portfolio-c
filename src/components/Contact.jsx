@@ -47,7 +47,7 @@ export const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img className="contactImg" src={"/kiwi-default-pic.jpeg"} alt="contactImg" />
+                        <img className="contactImg" src={"/footer-pic.jpg"} alt="contactImg" />
 
                     </Col>
                     <Col md={6}>

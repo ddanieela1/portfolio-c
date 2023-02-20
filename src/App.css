@@ -55,7 +55,7 @@ input:focus, textarea:focus, select:focus{
         }
 }
 
-/* nav styling */
+/******** nav styling *******/
 nav.navbar{
   padding: 18px 0;
   position: fixed;
@@ -63,17 +63,18 @@ nav.navbar{
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-  background-color: rgb(203, 159, 174);
+
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #000000;
 
 }
+/* 
 nav.navbar, a.navbar-brand {
   width: 9%;
 
-}
+} */
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -81,8 +82,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
-  opacity: 0.75;
-  background-color: rgb(203, 159, 174);
+  /* opacity: 0.75; */
+  /* background-color: rgb(203, 159, 174); */
 
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -216,7 +217,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before{
 nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
         border-color: transparent;
 }
-#home-nav {
+/* #home-nav {
   width: 80px;
   margin: 10px;
 
@@ -231,17 +232,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
   width: 85px;
   margin: 10px;
   color:white;
-}
-.navbar{
+} */
+/* .navbar{
   color: rgb(130, 183, 165);
-}
-#nav-bar {
+ 
+} */
+/* #nav-bar {
   color:white;
-}
+  background-color: #fff;
+} */
 
-/* banner styling */
+
+/******* banner styling *******/
 .banner{
-  margin-top: 0;
+  margin-top: -30px;
   padding: 260px 0 100px 0;
   /* background-image: url('./public/grad-grid.jpeg'); */
   /* background-color: rgb(156, 204, 156); */
@@ -334,17 +338,28 @@ border-right: 0.08em solid #666;
   z-index: 2;
   margin-top: 340px;
   position:absolute;
-  width: 300px;
+  width: 200px;
 }
 .webpage {
   z-index: 1;
   position:absolute;
-  width: 800px;
+  width: 600px;
   margin: 30px;
-  margin-left: 400px;
+  margin-left: 700px;
+  
 
 }
-/* skill styling */
+.intro-banner {
+  width: 500px;
+  height:200px;
+  
+}
+.decoration {
+  padding-top: 600px;
+  
+}
+
+/******* skill styling *******/
 
 .skill{
   padding: 0 0 50px 0;
@@ -391,7 +406,7 @@ border-right: 0.08em solid #666;
   z-index: -4;
 }
 
-/* project styling */
+/******** project styling ********/
 
 .project {
   padding: 80px 0;
@@ -531,7 +546,7 @@ transition: 0.3s ease-in-out;
   z-index: -4;
 }
 
-/* footer styling */
+/******* footer styling *******/
 .footer{
   padding: 0 0 50px 0;
   background-image: url('./intro.png');
@@ -610,4 +625,5 @@ width: 26%;
 .contactImg {
   width: 350px;
   margin: 70px auto;
+  border-radius: 10px;
 }
