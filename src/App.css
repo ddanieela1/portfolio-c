@@ -330,14 +330,14 @@ border-right: 0.08em solid #666;
   z-index: 1;
   position:absolute;
   width: 600px;
-  margin-right: 50px;
+  padding-right: 80px;
   margin-top: -50px;
   
 
 }
 .cursor {
   z-index: 2;
-  margin-top: 340px;
+  margin-top: 240px;
   position:absolute;
   width: 150px;
 }
