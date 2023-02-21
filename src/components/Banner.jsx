@@ -71,7 +71,7 @@ export const Banner = () => {
                 {/* <a href='https://react.semantic-ui.com/' type='button' >Lets Connect <ArrowRightCircle size={25} /></button> */}
                 {/* </Link>     */}
 
-                <a class='ban-button' href="https://google.com" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
+                <a class='ban-button' href="https://www.linkedin.com/in/daniela-villanueva-111413248/" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
                 <Col className="decoration" xs={12} md={6} xl={5}>
                     <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />

@@ -329,7 +329,7 @@ border-right: 0.08em solid #666;
 .window {
   z-index: 1;
   position:absolute;
-  width: 800px;
+  width: 600px;
   margin-top: -50px;
   
 
@@ -338,12 +338,12 @@ border-right: 0.08em solid #666;
   z-index: 2;
   margin-top: 340px;
   position:absolute;
-  width: 200px;
+  width: 150px;
 }
 .webpage {
   z-index: 1;
   position:absolute;
-  width: 600px;
+  width: 500px;
   margin: 30px;
   margin-left: 700px;
   

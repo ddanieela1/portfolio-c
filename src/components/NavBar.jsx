@@ -44,8 +44,8 @@ export const NavBar = () => {
           </Nav>
           <span className = "navbar-text">
             <div className = "social-icon">
-              <a href="https://www.linkedin.com/" ><img src={'/linkedin.svg'} alt="linked-in" /></a>
-              <a href="https://www.github.com/"><img src={'/github.svg'} alt="github" /></a>
+              <a href="https://www.linkedin.com/in/daniela-villanueva-111413248/" ><img src={'/linkedin.svg'} alt="linked-in" /></a>
+              <a href="https://github.com/ddanieela1"><img src={'/github.svg'} alt="github" /></a>
             </div>
 
             <HashLink to="#connect">
