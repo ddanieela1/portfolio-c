@@ -330,6 +330,7 @@ border-right: 0.08em solid #666;
   z-index: 1;
   position:absolute;
   width: 600px;
+  margin-right: 50px;
   margin-top: -50px;
   
 

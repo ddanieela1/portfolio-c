@@ -13,7 +13,7 @@ export const Banner = () => {
     const [delta,setDelta] = useState(300 - Math.random() * 100);
     const [index,setIndex] = useState(1);
     const period = 2000;
-    const rotation = ['Full Stack Engineer', 'Back-end Engineer','React Developer', 'Django Developer' ]
+    const rotation = ['Software Enginner','Full Stack Engineer', 'Front-End Developer','Back-End Engineer','React Developer', 'Django Developer' ]
     
 
     useEffect(()=>{
