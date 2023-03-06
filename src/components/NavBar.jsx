@@ -13,7 +13,7 @@ export const NavBar = () => {
 
 
   const scroll = () => {
-    const section = document.querySelector( '#skill', '#proj-pane' );
+    const section = document.querySelector( '#skill', '#proj-pane', '#about' );
     section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
   };
 
@@ -48,8 +48,8 @@ export const NavBar = () => {
               <a href="https://github.com/ddanieela1"><img src={'/github.svg'} alt="github" /></a>
             </div>
 
-            <HashLink to="#connect">
-            <button className ="social-button" onClick={() => console.log("clicked")}><span>Get in Touch</span></button>
+            <HashLink to="#about">
+            <button className ="social-button" onClick={() => console.log("clicked")}><span>About Me</span></button>
             </HashLink>
 
             </span>

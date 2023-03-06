@@ -52,7 +52,7 @@ export const Banner = () => {
 
 
     return (
-        <section className ="banner" id="home">
+        <section className ="banner" >
         <Container>
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
@@ -74,7 +74,7 @@ export const Banner = () => {
                 <a class='ban-button' href="https://www.linkedin.com/in/daniela-villanueva-111413248/" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
                 <Col className="decoration" xs={12} md={6} xl={5}>
-                    <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />
+                    {/* <img src={'/cursor.png'} className="cursor" alt="HeaderImg" /> */}
                     {/* <img src={'/window1.png'} className="window" alt="Window Img" /> */}
                 </Col>
             </Row>

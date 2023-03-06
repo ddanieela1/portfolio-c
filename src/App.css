@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 
 * {
@@ -351,14 +351,14 @@ border-right: 0.08em solid #666;
 
 }
 .intro-banner {
-  width: 500px;
-  height:200px;
+  width: 300px;
+  height:100px;
   
 }
-.decoration {
+/* .decoration {
   padding-top: 600px;
   
-}
+} */
 
 /******* skill styling *******/
 
@@ -367,7 +367,7 @@ border-right: 0.08em solid #666;
   position: relative;
   width: 100vw;
   height: 400px;
-  margin-top: 700px;
+  margin-top: 280px;
   color:white;
 }
 .skill-bx {
@@ -419,7 +419,7 @@ border-right: 0.08em solid #666;
         font-size: 45px;
         font-weight: 700;
   text-align: center;
-  margin: 30px;
+  /* margin: 30px; */
 
 }
 .project p {
@@ -430,16 +430,16 @@ border-right: 0.08em solid #666;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 76%;
+  width: 56%;
 }
 .project a {
   color: white;
-  font-size: 22x;
+  font-size: 20x;
 }
 .project .nav.nav-pills {
   width: 52%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 50px;
   /* background-color: rgb(255 255 255 / 10%); */
   overflow: hidden;
           border-radius: 10px;
@@ -468,7 +468,7 @@ content:"";
 position: absolute;
 width: 0;
 height: 100%;
-background: linear-gradient(90.21deg, #fff 0%, #AA367C -5.91%, #4A2FBD 111.58%);
+background: linear-gradient(90.21deg, #fff 0%, #000000 -5.91%, #4A2FBD 111.58%);
 top: 0;
 left: 0;
 z-index: -1;
@@ -627,4 +627,10 @@ width: 26%;
   width: 350px;
   margin: 70px auto;
   border-radius: 10px;
+}
+
+/* contact styling */
+.contact{
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
 }
