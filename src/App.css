@@ -268,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
   display: block;
 }
 .banner p {
@@ -280,7 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
 }
 .banner button {
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
@@ -288,7 +288,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
   align-items: center;
 }
 .banner button svg {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
@@ -315,14 +315,14 @@ border-right: 0.08em solid #666;
 
 }
 .connect-btn {
-  margin: 1px 0 0;
+  /* margin: 1px 0 0; */
   color:rgb(255, 255, 255);
-  font-size: 50px;
-  border: 1px solid;
+  /* font-size: 50px; */
+  border: 1px solid; 
   margin-top: 100px;
   border-radius: 10px;
   padding: 2px 6px 2px 6px;
-  background:rgb(0, 0, 0);
+  background:rgb(0, 0, 0); 
   
 }
 
@@ -437,7 +437,7 @@ border-right: 0.08em solid #666;
   font-size: 20x;
 }
 .project .nav.nav-pills {
-  width: 52%;
+  width: 42%;
   margin: 0 auto;
   border-radius: 50px;
   /* background-color: rgb(255 255 255 / 10%); */

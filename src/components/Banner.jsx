@@ -75,7 +75,7 @@ export const Banner = () => {
                 </Col>
                 <Col className="decoration" xs={12} md={6} xl={5}>
                     {/* <img src={'/cursor.png'} className="cursor" alt="HeaderImg" /> */}
-                    {/* <img src={'/window1.png'} className="window" alt="Window Img" /> */}
+                    <img src={'/window1.png'} className="window" alt="Window Img" />
                 </Col>
             </Row>
         </Container>
