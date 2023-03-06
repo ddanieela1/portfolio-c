@@ -327,21 +327,29 @@ border-right: 0.08em solid #666;
 }
 
 .window {
-  z-index: 1;
-  position:absolute;
-  width: 300px;
-  padding-right: 60px;
-  margin-top: -50px;
+  /* z-index: 1; */
+  /* position:absolute; */
+  width: 500px;
+  /* padding: 42%; */
+  padding-right: -70px;
+  margin-top: -10px;
   
 
 }
+.page-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+ 
+}
+
 .cursor {
   z-index: 2;
   margin-top: 240px;
   position:absolute;
   width: 150px;
 }
-.webpage {
+/* .webpage {
   z-index: 1;
   position:absolute;
   width: 500px;
@@ -349,7 +357,7 @@ border-right: 0.08em solid #666;
   margin-left: 700px;
   
 
-}
+} */
 .intro-banner {
   width: 300px;
   height:100px;
@@ -369,9 +377,10 @@ border-right: 0.08em solid #666;
   height: 400px;
   margin-top: 280px;
   color:white;
+  font-family: 'PT Serif', serif;
 }
 .skill-bx {
-  background: #151515;
+  background: #151515eb;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -414,17 +423,21 @@ border-right: 0.08em solid #666;
   position: relative;
   background-color: rgba(106, 89, 143, 0.397);
   color: white;
+  font-family: 'PT Serif', serif;
 }
 .project h2 {
         font-size: 45px;
         font-weight: 700;
+        padding-bottom:30px;
   text-align: center;
+
   /* margin: 30px; */
 
 }
 .project p {
   color: #B8B8B8;
   /* border-radius: 50px; */
+  font-family: 'PT Serif', serif;
   font-size: 20 px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -433,6 +446,7 @@ border-right: 0.08em solid #666;
   width: 56%;
 }
 .project a {
+  font-family: 'PT Serif', serif;
   color: white;
   font-size: 20x;
 }

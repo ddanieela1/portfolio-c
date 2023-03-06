@@ -74,8 +74,10 @@ export const Banner = () => {
                 <a class='ban-button' href="https://www.linkedin.com/in/daniela-villanueva-111413248/" type="button" className='connect-btn'>Lets Connect <ArrowRightCircle size={25} /></a>
                 </Col>
                 <Col className="decoration" xs={12} md={6} xl={5}>
-                    {/* <img src={'/cursor.png'} className="cursor" alt="HeaderImg" /> */}
+                    <Container className='page-container'>
+                    <img src={'/cursor.png'} className="cursor" alt="HeaderImg" />
                     <img src={'/window1.png'} className="window" alt="Window Img" />
+                    </Container>
                 </Col>
             </Row>
         </Container>
