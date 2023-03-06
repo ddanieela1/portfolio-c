@@ -329,7 +329,7 @@ border-right: 0.08em solid #666;
 .window {
   z-index: 1;
   position:absolute;
-  width: 500px;
+  width: 300px;
   padding-right: 60px;
   margin-top: -50px;
   
