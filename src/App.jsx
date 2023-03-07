@@ -33,7 +33,6 @@ function App() {
       <Skills  />
       <Projects/>
       <About />
-      {/* <Contact /> */}
       <Footer />
       <ScrollToTop />
 

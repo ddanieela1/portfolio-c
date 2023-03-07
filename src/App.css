@@ -329,7 +329,7 @@ border-right: 0.08em solid #666;
 .window {
   /* z-index: 1; */
   /* position:absolute; */
-  width: 400px;
+  width: 300px;
   height: auto;
   /* padding: 42%; */
   padding-right: -70px;
@@ -337,7 +337,7 @@ border-right: 0.08em solid #666;
   
 }
 .page-container {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
   margin: 0 auto;
   padding-top: 50px;
