@@ -349,7 +349,7 @@ border-right: 0.08em solid #666;
   height: auto;
   margin-top: 240px;
   position:absolute;
-  width: 150px;
+  width: 100px;
 }
 /* .webpage {
   z-index: 1;
@@ -395,7 +395,7 @@ border-right: 0.08em solid #666;
         margin: 25px;
 }
 .skill p {
-    color:rgba(170, 54, 124, 0.5);
+    color:rgba(0, 0, 0, 0.5);
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -484,7 +484,7 @@ content:"";
 position: absolute;
 width: 0;
 height: 100%;
-background: linear-gradient(90.21deg, #fff 0%, #000000 -5.91%, #4A2FBD 111.58%);
+background: linear-gradient(90.21deg, #000000 0%, #0602494f -5.91%, #4A2FBD 111.58%);
 top: 0;
 left: 0;
 z-index: -1;
@@ -512,7 +512,7 @@ transition: 0.3s ease-in-out;
 }
 .proj-imgbx::before{
   content:"";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #000000 -5.91%, #180560 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
