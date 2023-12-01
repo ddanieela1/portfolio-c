@@ -95,7 +95,7 @@ export const NavBar = () => {
                     : 'navbar-link'
                 }
                 href={
-                  'https://drive.google.com/file/d/1h-tAV5qvfImJHN5OJm5q444n8q2o9yC3/view?usp=sharing'
+                  'https://drive.google.com/file/d/1xFw7NyLy5iafc-Qnw996YLI8yqt1q11O/view?usp=sharing'
                 }
                 target="_blank"
               >
