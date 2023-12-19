@@ -88,7 +88,7 @@ export const NavBar = () => {
                 Skills
               </Nav.Link>
 
-              <Nav.Link
+              {/* <Nav.Link
                 className={
                   activateLink === 'skills'
                     ? 'active navbar-link'
@@ -108,7 +108,7 @@ export const NavBar = () => {
                   }
                 />
                 Resume
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
